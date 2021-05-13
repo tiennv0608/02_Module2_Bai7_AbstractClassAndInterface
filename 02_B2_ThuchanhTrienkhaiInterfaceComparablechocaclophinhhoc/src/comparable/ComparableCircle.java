@@ -2,7 +2,7 @@ package comparable;
 
 import shape.circle.Circle;
 
-public class ComparableCircle extends Circle implements Comparable {
+public class ComparableCircle extends Circle implements java.lang.Comparable<ComparableCircle> {
 
     public ComparableCircle() {
     }

@@ -28,7 +28,7 @@ public class Square extends Rectangle implements Colorable {
 
     @Override
     public double getArea() {
-        return this.side*this.side;
+        return this.getSide()*this.getSide();
     }
 
     @Override
